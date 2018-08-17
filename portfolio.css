@@ -6,17 +6,8 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 
-/*.navbar{
-    font-size: 1.5em;
-}
-
-.headshot{
-  float: left;
-}*/
-
 #portfolio-avatar{
-  padding: 50px;
-  
+  padding: 50px;  
 }
 
 .jumbotron{
@@ -28,6 +19,10 @@ body{
   color: #222;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.caption {
+ text-align: center;
 }
 
 #contact-section{
