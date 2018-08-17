@@ -25,6 +25,12 @@ body{
  text-align: center;
 }
 
+.project-links {
+  display: inline-block;
+  text-align: center;
+  color: black;
+}
+
 #contact-section{
   background-color: #ff9900;
   height: 100px;
