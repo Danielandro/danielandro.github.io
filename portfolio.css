@@ -25,9 +25,9 @@ body{
  text-align: center;
 }
 
-.project-links {
-  display: inline-block;
-  text-align: center;
+.project-links button {
+  /* color: black;   */
+  font-weight: bold;
   color: black;
 }
 
