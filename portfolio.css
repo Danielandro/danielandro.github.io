@@ -5,14 +5,16 @@
 html, body{
     background-color: var(--dark); 
     font-family: 'Roboto Slab', serif;
-    width: 100vw;
-    height: auto;
-    overflow-x: hidden;
+    /* width: 100%;
+    height: auto;  */
+    /* overflow-x: hidden; */
+    margin: 0;
+    padding: 0;
 }
 
-#portfolio-avatar{
+/* #portfolio-avatar{
   padding: 50px;  
-}
+} */
 
 .jumbotron{
   /* margin-bottom: 0; */
@@ -20,7 +22,7 @@ html, body{
 }
 
 #project-section{
-  color: var(--dark);
+  background-color: var(--dark);
   padding-top: 30px;
   padding-bottom: 30px;
 }
