@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css?family=Roboto+Slab'); */
-
 :root {
   --dark: rgb(20, 20, 20);
 }
@@ -22,7 +20,7 @@ html, body{
 }
 
 #project-section{
-  color: #222;
+  color: var(--dark);
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -31,8 +29,7 @@ html, body{
  text-align: center;
 }
 
-.project-links button {
-  /* color: black;   */
+.project-links button {  
   font-weight: bold;
   color: var(--dark);
 }
@@ -49,11 +46,11 @@ html, body{
   color: var(--dark);
 }
 
-/* #contact-section a{
-  padding: 20px;
-  margin-left: 15%;
+#contact-section{
+  padding: 25px 0;
+  /* margin-left: 15%; */
  
-} */
+}
 
 #github{
     /* margin-left: 25%; */
