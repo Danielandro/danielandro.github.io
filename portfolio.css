@@ -18,6 +18,10 @@ html, body{
   background-color: #ff9900;
 }
 
+.about-me {
+  margin-top: 50px; 
+}
+
 section{
   background-color: var(--dark);
   padding-top: 30px;
