@@ -4,10 +4,7 @@
 
 html, body{
     background-color: var(--dark); 
-    font-family: 'Roboto Slab', serif;
-    /* width: 100%;
-    height: auto;  */
-    /* overflow-x: hidden; */
+    font-family: 'Roboto Slab', serif;    
     margin: 0;
     padding: 0;
 }
@@ -21,14 +18,19 @@ html, body{
   background-color: #ff9900;
 }
 
-#project-section{
+section{
   background-color: var(--dark);
   padding-top: 30px;
   padding-bottom: 30px;
+  margin: 60px auto
 }
 
 .caption {
  text-align: center;
+}
+
+.caption p {
+  font-size: 14px;
 }
 
 .project-links button {  
