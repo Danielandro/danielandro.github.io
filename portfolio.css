@@ -55,6 +55,7 @@ footer {
   height: 100px;
   width: 100%;  
   text-align: center; 
+  padding: 18px 0; 
 }
 
 .icons{
@@ -63,7 +64,11 @@ footer {
   padding: 0;
 }
 
-#contact-section{
-  padding: 18px 0; 
+.icons:hover {
+  color: #276cdb;
+}
+
+#github:hover{
+  color: #0077b5;
 }
 
