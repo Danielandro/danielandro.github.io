@@ -1,5 +1,6 @@
 :root {
   --dark: #303030;
+  --orange: #ff9900;
 }
 
 html, body{
@@ -7,11 +8,11 @@ html, body{
     font-family: 'Roboto Slab', serif;    
     margin: 0;
     padding: 0;
-    border: 6px solid #303030
+    border: 6px solid var(--dark);
 }
 
 .jumbotron{  
-  background-color: #ff9900;
+  background-color: var(--orange);
 }
 
 .about-me {
@@ -22,7 +23,7 @@ html, body{
 }
 
 #project-header {
-  color: #ff9900;
+  color: var(--orange);
   text-align: center;
   margin-bottom: 40px;
 }
@@ -46,12 +47,8 @@ section{
   color: var(--dark);
 }
 
-footer {
-  margin-bottom: 0;
-}
-
 #contact-section{
-  background-color: #ff9900;
+  background-color: var(--orange);
   height: 100px;
   width: 100%;  
   text-align: center; 
@@ -68,7 +65,5 @@ footer {
   color: #276cdb;
 }
 
-#github:hover{
-  color: #0077b5;
-}
+
 
